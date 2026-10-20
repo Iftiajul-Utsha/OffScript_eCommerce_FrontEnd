@@ -1,0 +1,19 @@
+{
+  "name": "@offscript/backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "dotenv": "^16.5.0",
+    "helmet": "^8.1.0",
+    "express-rate-limit": "^7.5.0",
+    "zod": "^3.24.0"
+  }
+}
